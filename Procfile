@@ -1,1 +1,1 @@
-web:node Content.js
+web:node src/index.js
