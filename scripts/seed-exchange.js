@@ -16,6 +16,7 @@ const wait = (seconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
 
+
 module.exports = async function(callback) {
   try {
     // Fetch accounts from wallet - these are unlocked

@@ -75,7 +75,7 @@ class MyTransactions extends Component {
                 { this.props.showMyFilledOrders ? showMyFilledOrders(this.props) : <Spinner type="table" />}
               </table>
             </Tab>
-            <Tab eventKey="orders" title="Orders">
+            <Tab eventKey="orders" title="OpenOrders">
               <table className="table table-dark table-sm small">
                 <thead>
                   <tr>

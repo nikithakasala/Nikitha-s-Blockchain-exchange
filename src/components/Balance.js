@@ -199,7 +199,7 @@ class Balance extends Component {
           Balance
         </div>
         <div className="card-body">
-          {this.props.showForm ? showForm(this.props) : <Spinner />}
+          {this.props.showForm ? showForm(this.props) : <Spinner type='table' />}
         </div>
       </div>
     )
