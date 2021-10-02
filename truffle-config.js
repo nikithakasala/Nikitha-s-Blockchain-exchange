@@ -3,6 +3,7 @@ require('babel-polyfill');
 require('dotenv').config();
 const HDWalletProvider = require('truffle-hdwallet-provider-privkey');
 const privateKeys = process.env.PRIVATE_KEYS || ""
+const port = process.env.PORT || 3000
 
 module.exports = {
   networks: {

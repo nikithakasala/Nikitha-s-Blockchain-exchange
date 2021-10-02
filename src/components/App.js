@@ -11,9 +11,6 @@ import {
 } from '../store/interactions'
 import { contractsLoadedSelector } from '../store/selectors'
 
-const port = process.env.PORT || 3000
-App.listen(port)
-
 class App extends Component {
   componentWillMount() {
     this.loadBlockchainData(this.props.dispatch)
