@@ -12,7 +12,7 @@ import {
 import { contractsLoadedSelector } from '../store/selectors'
 
 const port = process.env.PORT || 3000
-app.listen(port)
+App.listen(port)
 
 class App extends Component {
   componentWillMount() {
