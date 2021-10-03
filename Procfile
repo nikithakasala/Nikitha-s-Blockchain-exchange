@@ -1,1 +1,1 @@
-web: node truffle-config.js
+web: node src/components/App.js
