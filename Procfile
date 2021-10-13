@@ -1,1 +1,0 @@
-web: node truffle-config.js
